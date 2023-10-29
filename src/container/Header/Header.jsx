@@ -19,8 +19,9 @@ export default function Header() {
         </p>
         <button className="custom__button"> Explore Menu</button>
       </div>
-      <div app__wrapper_img></div>
-      <img src={images.welcome} alt="welcome_image" />
+      <div className="app__wrapper_img image__blend">
+        <img src={images.welcome} alt="welcome_image" />
+      </div>
     </div>
   );
 }

@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  /* background-color: rgb(172, 171, 171); */
 }
 
 .app__navbar-logo {
@@ -12,7 +13,7 @@
 }
 
 .app__navbar-logo img {
-  width: 130px; /* Adjusted size */
+  width: 200px; /* Adjusted size */
 }
 
 .app__navbar-links {
@@ -71,7 +72,7 @@
 }
 
 .app__navbar-smallscreen_overlay .overlay__close {
-  font-size: 27px;
+  font-size: 50px;
   color: var(--color-golden);
   cursor: pointer;
   position: absolute;
@@ -87,7 +88,7 @@
   margin: 2rem;
   cursor: pointer;
   color: var(--color-golden);
-  font-size: 2rem;
+  font-size: 20rem;
   text-align: center;
   font-family: var(--font-base);
 }

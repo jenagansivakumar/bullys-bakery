@@ -21,7 +21,7 @@ export default function Header() {
           <button className="custom__button"> Explore Menu</button>
         </div>
         <div className="app__header_img image__blend">
-          <img src={images.cafe} alt="welcome_image" />
+          {/* <img src={images.cafe} alt="welcome_image" /> */}
         </div>
       </div>
     </div>

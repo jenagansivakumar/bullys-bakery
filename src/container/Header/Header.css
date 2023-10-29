@@ -1,12 +1,9 @@
 .app__header {
-  background: rgb(126, 126, 106);
-  /* font-family: "Georgia", serif; */
+  /* background: rgb(126, 126, 106); */
 }
 
 .app__header-h1 {
-  font-family: var(
-    --font-base
-  ); /* Using the CSS variable for Cormorant Upright */
+  font-family: var(--font-base);
   color: var(--color-white);
   letter-spacing: 0.08em;
   line-height: 117px;
@@ -15,35 +12,19 @@
 
 .image__blend {
   position: relative;
-  overflow: hidden; /* To ensure vignette doesn't overflow */
+  overflow: hidden;
 }
 
 .image__blend img {
   display: block;
   width: 80%;
   height: auto;
-  transition: filter 0.3s ease; /* Smoothens the transition effect */
+  transition: filter 0.3s ease, opacity 0.3s ease;
+
+  opacity: 0.9;
 }
 
-.image__blend::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(
-    circle at center,
-    transparent 70%,
-    black 100%
-  ); /* This creates the vignette effect */
-  pointer-events: none;
-  z-index: 1;
-}
-
-.image__blend img {
-  display: block;
-  width: 80%;
-  height: auto;
-  opacity: 0.6; /* This makes the image very translucent. Adjust as needed. */
+.image__blend:hover img {
+  filter: blur(0px);
+  opacity: 1;
 }

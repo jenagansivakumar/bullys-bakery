@@ -9,8 +9,13 @@ export default function Interim() {
       className="app__interim interim__bg flex__center section__padding"
       id="about"
     >
-      <div className="app__interim-image">
-        <img src={images.cafe_menu} alt="bb" />
+      <div className="app__interim-container">
+        <div className="app__interim-image image1">
+          <img src={images.cafe_menu} alt="bb" />
+        </div>
+        <div className="app__interim-image image2">
+          <img src={images.welcome_coffee_beans} alt="description" />
+        </div>
       </div>
     </div>
   );

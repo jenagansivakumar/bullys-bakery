@@ -27,8 +27,16 @@ import welcome_bullys_bakery from "../assets/welcome_bullys_bakery.png";
 import welcome_coffee_beans from "../assets/welcome_coffee_beans.png";
 import cafe from "../assets/welcome_cafe_upscale.png";
 import cafe_menu from "../assets/bullys-bakery-cafe.png";
+import coffee from "../assets/coffee.png";
+import salad from "../assets/salad.png";
+import toastie from "../assets/toastie.png";
+import croissant from "../assets/croissant.png";
 
 export default {
+  toastie,
+  croissant,
+  salad,
+  coffee,
   cafe,
   cafe_menu,
   bg,

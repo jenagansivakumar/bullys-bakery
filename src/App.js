@@ -15,7 +15,7 @@ import { Navbar } from "./components";
 import "./App.css";
 
 const App = () => (
-  <div className="app__bg">
+  <>
     <Navbar />
     <Header />
     <AboutUs />
@@ -26,7 +26,7 @@ const App = () => (
     <Gallery />
     <FindUs />
     <Footer />
-  </div>
+  </>
 );
 
 export default App;

@@ -11,7 +11,7 @@
 .app__bg {
   min-height: 100vh; /* Make sure it covers the entire viewport height */
 
-  background: url("./assets/welcome_bullys.png");
+  background: url("./assets/welcome_cafe.png");
   background-position: center;
   background-size: cover;
   background-repeat: repeat;

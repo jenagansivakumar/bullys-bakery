@@ -2,6 +2,7 @@ import React from "react";
 
 import {
   AboutUs,
+  Interim,
   Chef,
   FindUs,
   Footer,
@@ -18,6 +19,7 @@ const App = () => (
   <>
     <Navbar />
     <Header />
+    <Interim />
     <AboutUs />
     <SpecialMenu />
     <Chef />

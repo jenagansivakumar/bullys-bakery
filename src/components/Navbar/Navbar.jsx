@@ -9,12 +9,12 @@ export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <>
-      <div className="app__header  flex__center section__padding" id="home">
+      <div className="app__navbar flex__center section__padding" id="home">
         <nav className="app__navbar">
           <div className="app__navbar-logo">
             <img
               className="app__navbar-bullysimage"
-              src={images.bullys_logo}
+              src={images.redLogo}
               alt="app logo"
             />
           </div>

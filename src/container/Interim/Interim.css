@@ -1,0 +1,13 @@
+.interim__bg {
+  background: url(../../assets/welcome_bullys_bakery.png);
+}
+
+.app__interim {
+  width: 100vw;
+  height: 100vh;
+}
+
+.app__interim-image img {
+  width: 500px;
+  opacity: 0;
+}

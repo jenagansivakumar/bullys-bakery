@@ -7,6 +7,7 @@ import gallery03 from "../assets/gallery03.png";
 import gallery04 from "../assets/gallery04.png";
 import knife from "../assets/knife.png";
 import logo from "../assets/logo.png";
+import redLogo from "../assets/bullys_logo_red.png";
 import menu from "../assets/menu.png";
 import overlaybg from "../assets/overlaybg.png";
 import spoon from "../assets/spoon.svg";
@@ -25,9 +26,11 @@ import bullys_logo from "../assets/bullys_logo.png";
 import welcome_bullys_bakery from "../assets/welcome_bullys_bakery.png";
 import welcome_coffee_beans from "../assets/welcome_coffee_beans.png";
 import cafe from "../assets/welcome_cafe_upscale.png";
+import cafe_menu from "../assets/bullys-bakery-cafe.png";
 
 export default {
   cafe,
+  cafe_menu,
   bg,
   chef,
   G,
@@ -38,6 +41,7 @@ export default {
   gallery04,
   knife,
   logo,
+  redLogo,
   menu,
   overlaybg,
   spoon,

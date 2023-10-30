@@ -24,7 +24,7 @@ import bb from "../assets/bb.png";
 import bullys_logo from "../assets/bullys_logo.png";
 import welcome_bullys_bakery from "../assets/welcome_bullys_bakery.png";
 import welcome_coffee_beans from "../assets/welcome_coffee_beans.png";
-import cafe from "../assets/welcome_cafe.png";
+import cafe from "../assets/welcome_cafe_upscale.png";
 
 export default {
   cafe,

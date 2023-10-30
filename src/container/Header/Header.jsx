@@ -12,7 +12,9 @@ export default function Header() {
       <div className="app__header-overlay flex__center">
         <div className="app__header-content">
           <SubHeading title="Chase the new flavour" />
-          <h1 className="app__header-h1"> The key to fine dining </h1>
+          <h1 className="app__header-h1">
+            The <div className="app__header-key">key</div> to fine dining
+          </h1>
           <p className="p__opensans" style={{ margin: "2rem 0" }}>
             A stylish Berlin café for amazing coffees, delicious cakes, and
             lunch menus. Relax in our warm and welcoming atmosphere, perfect for

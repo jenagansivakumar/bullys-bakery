@@ -1,5 +1,5 @@
 .app__header {
-  /* background: rgb(126, 126, 106); */
+  text-shadow: 3px 3px 5px black, -3px -3px 5px rgba(255, 255, 255, 0.3);
 }
 
 .app__header-h1 {
@@ -8,8 +8,13 @@
   letter-spacing: 0.08em;
   line-height: 117px;
   font-size: 90px;
+  color: white;
+  text-shadow: 3px 3px 5px black, -3px -3px 5px rgba(255, 255, 255, 0.3);
 }
 
+.app__header-key {
+  color: rgb(252, 255, 49);
+}
 .image__blend {
   position: relative;
   overflow: hidden;

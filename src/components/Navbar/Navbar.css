@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: #f7ede2;
+  background: var(--color-beige);
   height: 50px;
 }
 
@@ -28,14 +28,24 @@
 .app__navbar-links li {
   margin: 0 1rem;
   cursor: pointer;
-  color: white;
-  text-shadow: 3px 3px 5px black, -3px -3px 5px rgba(255, 255, 255, 0.3);
+  color: grey;
+  font-size: 20px;
+  /* text-shadow: 3px 3px 5px black, -3px -3px 5px rgba(255, 255, 255, 0.3); */
+}
+.app__navbar-links li a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600; /* or 700 if you want it bolder */
 }
 
 .app__navbar-links li:hover {
-  color: pink;
-  font-size: 25px;
+  color: var(--color-white);
+  font-size: 21spx;
   transition: 1s;
+  background-color: grey;
+  border-radius: 6px;
+  opacity: 0.8;
+  padding: 3px;
 }
 
 .app__navbar-login {
@@ -48,12 +58,20 @@
   margin: 0 1rem;
   text-decoration: none;
   transition: 0.5s ease;
-  color: white;
-  text-shadow: 3px 3px 5px black, -3px -3px 5px rgba(255, 255, 255, 0.3);
+  color: grey;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .app__navbar-login a:hover {
   border-bottom: 1px solid var(--color-golden);
+  color: var(--color-white);
+  font-size: 21px;
+  transition: 1s;
+  background-color: grey;
+  border-radius: 6px;
+  opacity: 0.8;
+  padding: 3px;
 }
 
 .app__navbar-login div {
@@ -131,10 +149,4 @@
   .app__navbar-logo img {
     width: 100px; /* Adjusted size */
   }
-}
-
-.app__navbar-links li a {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 600; /* or 700 if you want it bolder */
 }

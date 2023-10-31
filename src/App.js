@@ -2,6 +2,7 @@ import React from "react";
 
 import {
   AboutUs,
+  Interim,
   Chef,
   FindUs,
   Footer,
@@ -15,9 +16,10 @@ import { Navbar } from "./components";
 import "./App.css";
 
 const App = () => (
-  <div>
+  <>
     <Navbar />
     <Header />
+    <Interim />
     <AboutUs />
     <SpecialMenu />
     <Chef />
@@ -26,7 +28,7 @@ const App = () => (
     <Gallery />
     <FindUs />
     <Footer />
-  </div>
+  </>
 );
 
 export default App;

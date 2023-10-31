@@ -1,0 +1,35 @@
+.app__header {
+  background: grey;
+}
+
+.app__header-h1 {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  letter-spacing: 0.08em;
+  line-height: 117px;
+  font-size: 90px;
+  color: white;
+  /* text-shadow: 3px 3px 5px black, -3px -3px 5px rgba(255, 255, 255, 0.3); */
+}
+
+.app__header-key {
+  color: rgb(252, 255, 49);
+}
+.image__blend {
+  position: relative;
+  overflow: hidden;
+}
+
+.image__blend img {
+  display: block;
+  width: 80%;
+  height: auto;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+
+  opacity: 0.9;
+}
+
+.image__blend:hover img {
+  filter: blur(0px);
+  opacity: 1;
+}

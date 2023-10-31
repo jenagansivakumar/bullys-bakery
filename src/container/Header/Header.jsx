@@ -12,7 +12,7 @@ export default function Header() {
       >
         <div className="app__header-overlay flex__center">
           <div className="app__header-content">
-            <SubHeading title="Chase the new flavour" />
+            <SubHeading title="Chase the new flavor" />
             <h1 className="app__header-h1">the finest coffee in town</h1>
             <p className="p__opensans" style={{ margin: "2rem 0" }}>
               A stylish Berlin café for amazing coffees, delicious cakes, and
@@ -21,9 +21,7 @@ export default function Header() {
             </p>
             <button className="custom__button"> Explore Menu</button>
           </div>
-          <div className="app__header_img image__blend">
-            {/* <img src={images.} alt="welcome_image" /> */}
-          </div>
+          <div className="app__header_img image__blend"></div>
         </div>
       </div>
     </div>

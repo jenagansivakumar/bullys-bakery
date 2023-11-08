@@ -13,8 +13,11 @@ export default function Navbar() {
       <div className="app__navbar flex__center section__padding" id="home">
         <nav className="app__navbar">
           <div className="app__navbar-logo">
-            <logojena />
-            <img className="app__navbar-bullysimage" alt="app logo" />
+            <img
+              className="app__navbar-bullysimage"
+              src={logojena} // Add the source (URL) of your image here
+              alt="app logo"
+            />
           </div>
           <ul className="app__navbar-links">
             <li className="p__opensans">

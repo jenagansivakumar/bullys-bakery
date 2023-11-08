@@ -1,5 +1,5 @@
 .interim__bg {
-  background: #f7ede2;
+  background: var(--color-beige);
   padding: 50px 0;
 }
 

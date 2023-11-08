@@ -13,8 +13,13 @@ export default function Header() {
         <div className="app__header-overlay flex__center">
           <div className="app__header-content">
             <SubHeading title="Chase the new flavor" />
-            <h1 className="app__header-h1">the finest coffee in town</h1>
-            <p className="p__opensans" style={{ margin: "2rem 0" }}>
+            <h1 className="app__header-h1 centered-text">
+              the finest coffee in town
+            </h1>
+            <p
+              className="p__opensans centered-text"
+              style={{ margin: "2rem 0" }}
+            >
               A stylish Berlin café for amazing coffees, delicious cakes, and
               lunch menus. Relax in our warm and welcoming atmosphere, perfect
               for working, reading, or catching up with friends.

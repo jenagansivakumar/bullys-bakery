@@ -4,6 +4,7 @@ import { MdOutlineRestaurantMenu } from "react-icons/md";
 import images from "../../constants/images";
 import "./Navbar.css";
 import { useState } from "react";
+import logojena from "../../assets/logojena.svg";
 
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -12,11 +13,8 @@ export default function Navbar() {
       <div className="app__navbar flex__center section__padding" id="home">
         <nav className="app__navbar">
           <div className="app__navbar-logo">
-            <img
-              className="app__navbar-bullysimage"
-              src={images.redLogo}
-              alt="app logo"
-            />
+            <logojena />
+            <img className="app__navbar-bullysimage" alt="app logo" />
           </div>
           <ul className="app__navbar-links">
             <li className="p__opensans">
